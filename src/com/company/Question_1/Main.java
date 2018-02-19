@@ -30,7 +30,7 @@ public class Main {
 
 
     private void addToArrayList() {
-        arrayList.add();
+       // arrayList.add();
     }
     private void displayArrayList() {
         for (Main main : arrayList) {
