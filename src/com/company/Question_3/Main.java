@@ -25,10 +25,15 @@ public class Main {
         carsList.add(new Car("Honda", "Civic", "Black"));
         carsList.add(new Car("Honda", "Insight", "Blue"));
         carsList.add(new Car("Tesla", "Model 3", "Grey"));
+        displayCars();
     }
 
     private void displayCars() {
 
+        for (Car car : carsList) {
+            System.out.println(car.getModel());
+
+        }
     }
 
 }
