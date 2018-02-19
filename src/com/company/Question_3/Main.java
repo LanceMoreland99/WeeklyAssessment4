@@ -27,5 +27,8 @@ public class Main {
         carsList.add(new Car("Tesla", "Model 3", "Grey"));
     }
 
+    private void displayCars() {
+
+    }
 
 }
